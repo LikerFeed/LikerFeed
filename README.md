@@ -1,5 +1,5 @@
 <code>🎓 Student: KPI / IM-13</code>
-<code>⚪ Community: None</code>
+<code>⚪ Community: KPI</code>
 <code>👷 Speciality: Software engineer / Backend</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code>
