@@ -9,4 +9,4 @@
 <code>📦 Tech stack: node.js</code>
 <code>🪙 [Rates](RATES.md)</code><br>
 <code>💬 telegram: [@ivan_anenko](https://telegram.me/ivan_anenko)</code>
-<code>📫 [your-email](mailto:vanya18845@gmail.com)</code>
+<code>📫 [vanya18845@gmail.com](mailto:vanya18845@gmail.com)</code>
