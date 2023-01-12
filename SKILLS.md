@@ -49,8 +49,8 @@
 | 🟩 Asyncronous programming     | 🟩 Parent class       | 🟩 Functor           |                          |
 | 🟦 Parallel programming        | 🟩 Polymorphism       | 🟩 Functional object |                          |
 | 🟦 Reactive programming        | 🟩 Abstract class     | ⬜ Monad             |                          |
-| ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟩 Generator         |                          |
-| 🟦 Automata-based programming  | 🟦 Encapsulation      | 🟩 Iterator          |                          |
+| ⬜ FRP (Functional-reactive)   | 🟩 Interface          | 🟩 Generator         |                          |
+| 🟦 Automata-based programming  | 🟩 Encapsulation      | 🟩 Iterator          |                          |
 | 🟦 Domain-specific languages   | 🟩 Hidden class       | 🟩 Async Iterator    |                          |
 | 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
 | ⬜ Metaprogramming             | 🟩 instance           |                      |                          |
@@ -123,9 +123,9 @@
 | ⬜ right join                      | 🟩 SHOW TABLE      | 🟩 GROUPING_ID           |
 | 🟩 alias                           | 🟩 DROP TABLE      | 🟩 MAX                   |
 | 🟩 direct multiplication of tables | 🟩 DESCRIBE        | 🟩 MIN                   |
-| 🟩 relational division             | 🟩 INSERT          | 🟩 STDEV                 |
-| 🟩 agregate functions              | 🟩 UPDATE          | 🟩 STDEVP                |
-| 🟩 full projection                 | 🟩 DELETE          | 🟩 STRING_AGG            |
+| 🟩 relational division             | 🟩 INSERT          | 🟦 STDEV                 |
+| 🟩 agregate functions              | 🟩 UPDATE          | 🟦 STDEVP                |
+| 🟩 full projection                 | 🟩 DELETE          | 🟦 STRING_AGG            |
 |                                    | 🟩 SELECT          | 🟩 SUM                   |
 |                                    | 🟩 SELECT DISTINCT | 🟩 VAR                   |
 |                                    | 🟩 WHERE           | ⬜️ VARP                  |
@@ -147,16 +147,16 @@
 | 🟩 Virtual DOM                | 🟩 useEffect    | 🟩 Props Plowing                              | 🟩 React Redux           |
 | 🟩 Functional component       | 🟩 useReducer   | 🟩 Props mutation                             | 🟩 React Dom             |
 | 🟩 Class component            | 🟩 useContext   | ⬜️ setState() is async                        | 🟩 Redux Thunk           |
-| 🟩 Dumb component             | 🟩 useRef       | ⬜️ Nested components                          | 🟩 Redux Final Form      |
-| 🟩 Smart component            | 🟩 useCallback  | 🟦 Huge component trees                       | 🟦 Formik                |
-| 🟩 Rendering a component      | 🟦 useMemo      | 🟦 Passing all props with spread  everywhere  | 🟦 Babel                 |
+| 🟩 Dumb component             | ⬜️ useRef       | ⬜️ Nested components                          | 🟦 Redux Final Form      |
+| 🟩 Smart component            | ⬜️ useCallback  | 🟦 Huge component trees                       | 🟦 Formik                |
+| 🟩 Rendering a component      | ⬜️ useMemo      | 🟦 Passing all props with spread  everywhere  | 🟦 Babel                 |
 | 🟩 Props                      | ⬜️ Custom Hooks | 🟦 Passing too much information to components | 🟦 Sass                  |
 | 🟩 State                      |                 | 🟦 Overoptimizing performance                 | 🟦 Webpack               |
-| 🟩 Composing components       |                 | ⬜️ Async functions in useEffect               | 🟦 Hook form             |
-| 🟩 Extracting components      |                 | 🟦 multiple useState hooks                    | 🟦 React DevTools        |
+| 🟦 Composing components       |                 | ⬜️ Async functions in useEffect               | 🟦 Hook form             |
+| 🟦 Extracting components      |                 | 🟦 multiple useState hooks                    | 🟦 React DevTools        |
 | ⬜️ Lifecycle components       |                 |                                                | 🟦 Redux DevTools        |
-| 🟩 Conditional rendering      |                 |                                                | 🟦 Jest                  |
-| 🟩 The Data Flows Down        |                 |                                                | 🟦 React Testing Library |
+| 🟦 Conditional rendering      |                 |                                                | 🟦 Jest                  |
+| 🟦 The Data Flows Down        |                 |                                                | 🟦 React Testing Library |
 | 🟦 Handling Events            |                 |                                                | 🟦 Reselect              |
 | 🟦 Prevent from Rendering     |                 |                                                |                          |
 | ⬜️ Multiple Rendering         |                 |                                                |                          |
@@ -164,7 +164,7 @@
 | ⬜️ Lifting State Up           |                 |                                                |                          |
 | 🟦 Composition vs Inheritance |                 |                                                |                          |
 | 🟦 Code-Splitting             |                 |                                                |                          |
-| 🟩 Bundling                   |                 |                                                |                          |
+| 🟦 Bundling                   |                 |                                                |                          |
 | ⬜️ React.lazy                 |                 |                                                |                          |
 | 🟦 Suspense and fallbacks     |                 |                                                |                          |
 | 🟩 Named Exports              |                 |                                                |                          |
